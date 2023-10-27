@@ -1,2 +1,41 @@
+/* Custom CSS for the Bootstrap modal */
+#newton-modal {
+  /* Customize the modal width and max-height */
+  max-width: 80%;
+  max-height: 80%;
 
-/* Your CSS Code here. */
+  /* Center the modal vertically and horizontally */
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Style the modal header */
+#newton-modal .modal-header {
+  background-color: #007bff; /* Change the background color */
+  color: white; /* Change the text color */
+  border: none; /* Remove the border */
+}
+
+/* Style the modal body */
+#newton-modal .modal-body {
+  padding: 20px; /* Add padding to the body */
+}
+
+/* Style the modal footer */
+#newton-modal .modal-footer {
+  border: none; /* Remove the border */
+}
+
+/* Style the close button */
+#newton-modal .modal-footer .btn-secondary {
+  background-color: #dc3545; /* Change the background color */
+  color: white; /* Change the text color */
+}
+
+/* Style the close button on hover */
+#newton-modal .modal-footer .btn-secondary:hover {
+  background-color: #c82333; /* Change the background color on hover */
+  color: white; /* Change the text color on hover */
+}
